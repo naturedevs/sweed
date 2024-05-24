@@ -253,7 +253,7 @@ spline-viewer {
   display: inline-block;
 }
 .all-you-need-section .block-inner > div {
-  transition: all 0.5s ease;
+  /* transition: all 0.5s ease; */
   opacity: 0;
   visibility: hidden;
 }

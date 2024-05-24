@@ -104,7 +104,7 @@ export default function AllYouNeed() {
               <span className='t-heading-6-sm text-[#181819]'>Inventory<br />Management</span>
             </div>
           </div>
-          <div className='z-[50] hover:z-0 block block-6  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-5'>
+          <div className='z-[50] hover:z-0 block block-6  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-5, block-11'>
             <div className='block-inner'>
               <div className='absolute top-[40px] right-[101px] w-[129px] rotate-[180deg] bg-gradient-to-r from-[#B84FD7] to-[#F67227] h-[1px] z-20aa'></div>
               <div className='absolute top-[132px] right-[0px] w-[166px] rotate-[90deg] xl:hidden bg-gradient-to-r from-[#B84FD7] to-[#D74FA9] h-[1px] z-20aa'></div>

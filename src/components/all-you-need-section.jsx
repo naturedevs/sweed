@@ -72,7 +72,7 @@ export default function AllYouNeed() {
               <div className='absolute top-[130px] xl:hidden right-[78px] w-[510px] rotate-[161deg] bg-gradient-to-r from-[#A682FF] to-[#06AED5] h-[1px] z-20aa'></div>
               <div className='absolute top-[135px] lg:hidden xl:block right-[60px] w-[462px] rotate-[156deg] bg-gradient-to-r from-[#A682FF] to-[#06AED5] h-[1px] z-20aa'></div>
               <div className='absolute top-[128px] xl:hidden right-[62px] w-[320px] rotate-[151deg] bg-gradient-to-r from-[#A682FF] to-[#43C798] h-[1px] z-20aa'></div>
-              <div className='absolute top-[122px] lg:hidden xl:block right-[25px] w-[315px] rotate-[145deg] bg-gradient-to-r from-[#A682FF] to-[#43C798] h-[1px] z-20aa'></div>
+              <div className='absolute top-[132px] lg:hidden xl:block right-[39px] w-[315px] rotate-[145deg] bg-gradient-to-r from-[#A682FF] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute top-[120px] right-[16px] w-[190px] rotate-[115deg] bg-gradient-to-r from-[#A682FF] to-[#FFBF00] h-[1px] z-20aa'></div>
               <Image
                 src="/images/homepage/icon_delivery.png"

@@ -254,8 +254,8 @@ spline-viewer {
 }
 .all-you-need-section .block-inner > div {
   /* transition: all 0.5s ease; */
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0; */
+  /* visibility: hidden; */
 }
 .all-you-need-section .block-inner:hover > div {
   opacity: 1;

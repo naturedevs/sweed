@@ -13,7 +13,8 @@ export default function AllYouNeed() {
           <div className='z-[50] hover:z-0 block block-1  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-3, block-7, block-8'>
             <div className='block-inner '>
               <div className='absolute top-[40px] left-[90px] w-[310px] rotate-[0deg] bg-gradient-to-r from-[#5BBA6F] to-[#289590] h-[1px] z-20aa'></div>
-              <div className='absolute top-[132px] xl:hidden  left-[84px] w-[420px] rotate-[21deg] bg-gradient-to-r from-[#5BBA6F] to-[#FFBF00] h-[1px] z-20aa'></div>
+              <div className='absolute top-[128px] xl:hidden  left-[60px] w-[445px] rotate-[21deg] bg-gradient-to-r from-[#5BBA6F] to-[#FFBF00] h-[1px] z-20aa'></div>
+              {/* <div className='absolute top-[132px] xl:hidden  left-[84px] w-[420px] rotate-[21deg] bg-gradient-to-r from-[#5BBA6F] to-[#FFBF00] h-[1px] z-20aa'></div> */}
               <div className='absolute top-[132px] hidden xl:block left-[79px] w-[420px] rotate-[21deg] bg-gradient-to-r from-[#5BBA6F] to-[#FFBF00] h-[1px] z-20aa'></div>
               <div className='absolute top-[133px] xl:hidden right-[-2px] w-[165px] rotate-[90deg] bg-gradient-to-r from-[#5BBA6F] to-[#06AED5] h-[1px] z-20aa'></div>
               <div className='absolute top-[133px] hidden xl:block left-[29px] w-[175px] rotate-[62deg] bg-gradient-to-r from-[#5BBA6F] to-[#06AED5] h-[1px] z-20aa'></div>
@@ -151,18 +152,18 @@ export default function AllYouNeed() {
           <div className='z-[50] hover:z-0 block block-9  w-[33.33%] lg:w-[160px] custom-w1 mb-[30px] lg:mb-[50px] relative' data-connect='block-1,block-2, block-4, block-8, block-7, block-10'>
             <div className='block-inner'>
               <div className='absolute bottom-[88px] left-[300px] w-[190px] xl:hidden rotate-[180deg] bg-gradient-to-r from-[#5076D8] to-[#FFBF00] h-[1px] z-20aa'></div>
-              <div className='absolute bottom-[88px] right-[94px] w-[190px] xl:hidden rotate-[0deg] bg-gradient-to-r from-[#06AED5] to-[#43C798] h-[1px] z-20aa'></div>
+              <div className='absolute bottom-[88px] right-[94px] w-[190px] xl:hidden rotate-[180deg] bg-gradient-to-r from-[#06AED5] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[88px] left-[101px] w-[200px] xl:hidden rotate-[180deg] bg-gradient-to-r from-[#FFBF00] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[180px] right-[22px] w-[160px] xl:hidden rotate-[75deg] bg-gradient-to-r from-[#ED254E] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[191px] left-[80px] w-[330px] xl:hidden rotate-[151deg] bg-gradient-to-r from-[#A682FF] to-[#43C798] h-[1px] z-20aa'></div>
-              <div className='absolute bottom-[176px] right-[50px] w-[270px] xl:hidden rotate-[40deg] bg-gradient-to-r from-[#5BBA6F] to-[#FFBF00] h-[1px] z-20aa'></div>
+              <div className='absolute bottom-[176px] right-[50px] w-[270px] xl:hidden rotate-[40deg] bg-gradient-to-r from-[#5BBA6F] to-[#43C798] h-[1px] z-20aa'></div>
               
               <div className='absolute bottom-[88px] left-[250px] w-[190px] rotate-[180deg] lg:hidden xl:block bg-gradient-to-r from-[#5076D8] to-[#FFBF00] h-[1px] z-20aa'></div>
-              <div className='absolute bottom-[88px] right-[84px] w-[190px] rotate-[0deg] lg:hidden xl:block bg-gradient-to-r from-[#06AED5] to-[#43C798] h-[1px] z-20aa'></div>
+              <div className='absolute bottom-[88px] right-[84px] w-[180px] rotate-[180deg] lg:hidden xl:block bg-gradient-to-r to-[#06AED5] from-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[88px] left-[80px] w-[200px] rotate-[180deg] lg:hidden xl:block bg-gradient-to-r from-[#FFBF00] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[180px] right-[32px] w-[180px] rotate-[65deg] lg:hidden xl:block bg-gradient-to-r from-[#ED254E] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[185px] left-[70px] w-[300px] rotate-[145deg] lg:hidden xl:block bg-gradient-to-r from-[#A682FF] to-[#43C798] h-[1px] z-20aa'></div>
-              <div className='absolute bottom-[176px] right-[50px] w-[295px] rotate-[35deg] lg:hidden xl:block bg-gradient-to-r from-[#5BBA6F] to-[#FFBF00] h-[1px] z-20aa'></div>
+              <div className='absolute bottom-[176px] right-[50px] w-[295px] rotate-[35deg] lg:hidden xl:block bg-gradient-to-r from-[#5BBA6F] to-[#43C798] h-[1px] z-20aa'></div>
               <Image
                 src="/images/homepage/icon_ecommerce.png"
                 alt=""

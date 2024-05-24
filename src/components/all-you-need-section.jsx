@@ -198,7 +198,7 @@ export default function AllYouNeed() {
               <span className='t-heading-6-sm text-[#181819]'>Analytics</span>
             </div>
           </div>
-          <div className='z-[50] hover:z-0 block block-10 w-[33.33%] lg:w-[160px] custom-w1 mb-[30px] lg:mb-[50px] relative' data-connect='block-3, block-5, block-8'>
+          <div className='z-[50] hover:z-0 block block-10 w-[33.33%] lg:w-[160px] custom-w1 mb-[30px] lg:mb-[50px] relative' data-connect='block-3, block-5, block-7, block-8'>
             <div className='block-inner'>
               <div className='absolute bottom-[88px] right-[313px] w-[180px] rotate-[0deg] bg-gradient-to-r xl:hidden from-[#06AED5] to-[#FFBF00] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[88px] right-[520px] w-[190px] rotate-[0deg] bg-gradient-to-r xl:hidden from-[#06AED5] to-[#43C798] h-[1px] z-20aa'></div>

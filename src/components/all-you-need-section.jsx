@@ -32,7 +32,7 @@ export default function AllYouNeed() {
           <div className='z-[50] hover:z-0 block block-2  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-1, block-7, block-8, block-9, block-10'>
             <div className='block-inner'>
               <div>
-              <div className='absolute top-[40px] right-[102px] w-[132px] rotate-[180deg] bg-gradient-to-r from-[#ED254E] to-[#5BBA6F] h-[1px] z-20aa'></div>
+              <div className='absolute top-[40px] right-[100px] w-[135px] rotate-[180deg] bg-gradient-to-r from-[#ED254E] to-[#5BBA6F] h-[1px] z-20aa'></div>
               <div className='absolute top-[130px] xl:hidden right-[57px] w-[210px] rotate-[133deg] bg-gradient-to-r from-[#ED254E] to-[#06AED5] h-[1px] z-20aa'></div>
               <div className='absolute top-[130px] lg:hidden xl:block right-[14px] w-[210px] rotate-[116deg] bg-gradient-to-r from-[#ED254E] to-[#06AED5] h-[1px] z-20aa'></div>
               <div className='absolute top-[130px] xl:hidden left-[66px] w-[280px] rotate-[32deg] bg-gradient-to-r from-[#ED254E] to-[#FFBF00] h-[1px] z-20aa'></div>
@@ -54,7 +54,7 @@ export default function AllYouNeed() {
           </div>
           <div className='z-[50] hover:z-0 block block-3  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-1, block-9, block-10'>
             <div className='block-inner'>
-              <div className='absolute top-[40px] right-[106px] w-[310px] rotate-[180deg] bg-gradient-to-r from-[#289590] to-[#5BBA6F] h-[1px] z-20aa'></div>
+              <div className='absolute top-[40px] right-[100px] w-[310px] rotate-[180deg] bg-gradient-to-r from-[#289590] to-[#5BBA6F] h-[1px] z-20aa'></div>
               <div className='absolute top-[134px] xl:hidden left-[-80px] w-[180px] rotate-[120deg] bg-gradient-to-r from-[#289590] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute top-[134px] lg:hidden xl:block left-[-60px] w-[180px] rotate-[115deg] bg-gradient-to-r from-[#289590] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute top-[135px] xl:hidden left-[84px] w-[300px] rotate-[31deg] bg-gradient-to-r from-[#289590] to-[#5076D8] h-[1px] z-20aa'></div>
@@ -90,13 +90,13 @@ export default function AllYouNeed() {
           </div>
           <div className='z-[50] hover:z-0 block block-5  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-1, block-6, block-8, block-9, block-10'>
             <div className='block-inner'>
-              <div className='absolute top-[40px] right-[102px] w-[650px] rotate-[180deg] bg-gradient-to-r from-[#F67227] to-[#5BBA6F] h-[1px] z-20aa'></div>
+              <div className='absolute top-[40px] right-[100px] w-[655px] rotate-[180deg] bg-gradient-to-r from-[#F67227] to-[#5BBA6F] h-[1px] z-20aa'></div>
               <div className='absolute top-[130px] right-[71px] w-[270px] rotate-[145deg] bg-gradient-to-r from-[#F67227] to-[#FFBF00] h-[1px] z-20aa'></div>
               <div className='absolute top-[130px] right-[77px] w-[463px] rotate-[159deg] xl:hidden bg-gradient-to-r from-[#F67227] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute top-[135px] right-[77px] w-[453px] rotate-[157deg] lg:hidden xl:block bg-gradient-to-r from-[#F67227] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute top-[128px] right-[21px] w-[165px] rotate-[105deg] xl:hidden bg-gradient-to-r from-[#F67227] to-[#5076D8] h-[1px] z-20aa'></div>
               <div className='absolute top-[128px] right-[42px] w-[159px] rotate-[115deg] lg:hidden xl:block bg-gradient-to-r from-[#F67227] to-[#5076D8] h-[1px] z-20aa'></div>
-              <div className='absolute top-[40px] left-[100px] w-[133px] rotate-[0deg] bg-gradient-to-r from-[#F67227] to-[#B84FD7] h-[1px] z-20aa'></div>
+              <div className='absolute top-[40px] left-[97px] w-[138px] rotate-[0deg] bg-gradient-to-r from-[#F67227] to-[#B84FD7] h-[1px] z-20aa'></div>
               {/* <div className='absolute top-[132px] left-[60px] w-[190px] rotate-[52deg] bg-gradient-to-r from-[#F67227] to-[#D74FA9] h-[1px] z-20aa'></div> */}
               <Image
                 src="/images/homepage/icon_inventory.png"
@@ -139,7 +139,7 @@ export default function AllYouNeed() {
               <div className='absolute bottom-[185px] left-[85px] w-[520px] rotate-[161deg] xl:hidden bg-gradient-to-r from-[#A682FF] to-[#06AED5] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[180px] left-[65px] w-[460px] rotate-[156deg] lg:hidden xl:block bg-gradient-to-r from-[#A682FF] to-[#06AED5] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[88px] left-[102px] w-[200px] rotate-[180deg] xl:hidden bg-gradient-to-r to-[#5076D8] from-[#5BBA6F] h-[1px] z-20aa'></div>
-              <div className='absolute bottom-[88px] left-[102px] w-[160px] rotate-[180deg] lg:hidden xl:block bg-gradient-to-r to-[#5076D8] from-[#5BBA6F] h-[1px] z-20aa'></div>
+              <div className='absolute bottom-[88px] left-[97px] w-[170px] rotate-[180deg] lg:hidden xl:block bg-gradient-to-r to-[#5076D8] from-[#5BBA6F] h-[1px] z-20aa'></div>
               <Image
                 src="/images/homepage/icon_customers.png"
                 alt=""
@@ -190,7 +190,7 @@ export default function AllYouNeed() {
               <div className='absolute bottom-[88px] right-[80px] w-[180px] rotate-[180deg] bg-gradient-to-r lg:hidden xl:block to-[#06AED5] from-[#FFBF00] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[88px] left-[80px] w-[190px] rotate-[180deg] bg-gradient-to-r lg:hidden xl:block from-[#5076D8] to-[#FFBF00] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[183px] right-[80px] w-[430px] rotate-[21deg] bg-gradient-to-r lg:hidden xl:block from-[#5BBA6F] to-[#FFBF00] h-[1px] z-20aa'></div>
-              <div className='absolute bottom-[190px] right-[58px] w-[300px] rotate-[32deg] bg-gradient-to-r lg:hidden xl:block from-[#ED254E] to-[#FFBF00] h-[1px] z-20aa'></div>
+              <div className='absolute bottom-[190px] right-[58px] w-[305px] rotate-[32deg] bg-gradient-to-r lg:hidden xl:block from-[#ED254E] to-[#FFBF00] h-[1px] z-20aa'></div>
               <div className='absolute bottom-[190px] left-[45px] w-[175px] rotate-[115deg] bg-gradient-to-r lg:hidden xl:block from-[#A682FF] to-[#FFBF00] h-[1px] z-20aa'></div>
               <Image
                 src="/images/homepage/icon_analytics.png"

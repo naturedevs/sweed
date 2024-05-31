@@ -243,7 +243,7 @@ export default function AllYouNeed() {
             </div>
           </div>
         </div>
-        <div className="flex lg:hidden blocks-row text-center justify-start max-w-[1140px] m-auto xl:gap-[10px] flex-wrap">
+        <div className="flex lg:hidden blocks-row text-center justify-evenly max-w-[1140px] m-auto xl:gap-[10px] flex-wrap">
           <div className='block block-1 w-[33.33%] md:w-[25%] xl:w-[180px] mb-[30px] xl:mb-[50px] relative' data-connect='block-3, block-7, block-8'>
             <div className='block-inner'>
               <Image

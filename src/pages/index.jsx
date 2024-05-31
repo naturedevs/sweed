@@ -13,7 +13,7 @@ export default function Home() {
         title={<>One Platform <br />for All Cannabis <br />Retail Operations</>}
         image={homeBannerImage}
         titleWidth="640px"
-        class="!min-h-screen !items-end !pt-0"
+        class="!min-h-screen !items-center !pt-0"
       />
 
       <AllYouNeedSection />

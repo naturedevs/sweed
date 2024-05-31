@@ -31,6 +31,7 @@ export default function AllYouNeed() {
           </div>
           <div className='z-[50] hover:z-0 block block-2  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-1, block-7, block-8, block-9, block-10'>
             <div className='block-inner'>
+              <div>
               <div className='absolute top-[40px] right-[102px] w-[132px] rotate-[180deg] bg-gradient-to-r from-[#ED254E] to-[#5BBA6F] h-[1px] z-20aa'></div>
               <div className='absolute top-[130px] xl:hidden right-[57px] w-[210px] rotate-[133deg] bg-gradient-to-r from-[#ED254E] to-[#06AED5] h-[1px] z-20aa'></div>
               <div className='absolute top-[130px] lg:hidden xl:block right-[14px] w-[210px] rotate-[116deg] bg-gradient-to-r from-[#ED254E] to-[#06AED5] h-[1px] z-20aa'></div>
@@ -39,6 +40,7 @@ export default function AllYouNeed() {
               <div className='absolute top-[131px] xl:hidden left-[5px] w-[190px] rotate-[75deg] bg-gradient-to-r from-[#ED254E] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute top-[131px] lg:hidden xl:block left-[26px] w-[190px] rotate-[65deg] bg-gradient-to-r from-[#ED254E] to-[#43C798] h-[1px] z-20aa'></div>
               <div className='absolute top-[132px] left-[78px] w-[467px] rotate-[22deg] bg-gradient-to-r from-[#ED254E] to-[#5076D8] h-[1px] z-20aa'></div>
+              </div>
               <Image
                 src="/images/homepage/icon_marketing.png"
                 alt=""
@@ -47,7 +49,7 @@ export default function AllYouNeed() {
                 sizes="100vw"
                 className="w-[60px] md:w-[74px] h-[60px] md:h-[74px] m-auto relative z-30"
               />
-              <span className='t-heading-6-sm text-[#181819]'>Marketing<br />& Loyalty</span>
+              <span className='t-heading-6-sm text-[#181819] z-[999]'>Marketing<br />& Loyalty</span>
             </div>
           </div>
           <div className='z-[50] hover:z-0 block block-3  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-1, block-9, block-10'>

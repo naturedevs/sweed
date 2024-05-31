@@ -11,7 +11,7 @@ export default function ImageText(props) {
             width={0}
             height={0}
             sizes="100vw"
-            style={props.imageSize ? { width: props.imageSize, height: props.imageSize } : { width: '100%', height: 'auto' }}
+            style={props.imageSize ? { width: props.imageSize, height: props.imageSize } : { width: '100%', height: '100%' }}
             className='hidden lg:block'
           />
           <Image
@@ -24,9 +24,9 @@ export default function ImageText(props) {
             className='block lg:hidden'
           />
         </div>
-        <div className='w-full'>
+        <div className='w-full h-[140px]'>
           <h2 className={`t-heading-6 text-[#181819] mb-[10px] !font-semibold1 !leading-[28px] !font-semibold ${props.color}`}>{props.title}</h2>
-          <div className={`text-[16px] text-[#2B2A2A] flex flex-col gap-[20px] ${props.color}`}>{props.text}</div>
+          <div className={`h-[80px] text-[16px] text-[#2B2A2A] ${props.color}`}>{props.text}</div>
         </div>
       </div>
     </div>

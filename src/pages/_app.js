@@ -62,6 +62,27 @@ function onReadyCustomFunc() {
       $(this).parent().parent().find('.block').removeClass('active');
     }
   }, '.block-inner');
+
+  /* "All You Need" section */
+  $(".all-you-need-section .blocks-row").on({
+    mouseenter: function () {
+      $(this).parent().parent().find('.block').removeClass('active');
+      $(this).parent().addClass('active');
+      let dataConnect = $(this).parent().attr('data-connect');
+      if (dataConnect) {
+        let data = dataConnect.split(',');
+        if (data) {
+          $(data).each(function (index, value) {
+            let valueClass = value.trim();
+            $("." + valueClass).addClass('active');
+          });
+        }
+      }
+    },
+    mouseleave: function () {
+      $(this).parent().parent().find('.block').removeClass('active');
+    }
+  }, '.block-inner1');
   /* "Image Text Block" section */
   $(document).on("scroll", throttleFunction(() => {
     var pageTop = $(document).scrollTop();

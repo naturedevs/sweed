@@ -40,10 +40,10 @@ export default function Footer() {
     });
 
     return (
-        <div id="schedule-form" className="bg-color-tile bg-[url('/images/homepage/home_banner_bg.jpg')] bg-cover px-[8px]">
+        <div id="schedule-form" className="bg-color-tile bg-[url('/images/homepage/home_banner_bg.jpg')] bg-cover ">
             <div className=" py-12 md:py-28">
                 <div className="container">
-                    <div className='grid lg:grid-cols-2 lg:grid-rows-2 gap-[50px] lg:gap-[50px] xl:gap-[100px]'>
+                    <div className='grid lg:grid-cols-2 lg:grid-rows-2 gap-[50px] lg:gap-[72px] xl:gap-[100px]'>
                         <div className='lg:[grid-area:1_/_1_/_2_/_2] self-end'>
                             <h2 className='t-heading-1-md text-white mb-[15px] lg:max-w-[390px]'>Schedule a Demo</h2>
                             <p className="t-body-sm text-white lg:max-w-[385px] !leading-[28px]">Empower Revenue Growth and Boost Cost Efficiency With Our Expert Assistance</p>

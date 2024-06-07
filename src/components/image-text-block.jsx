@@ -4,7 +4,7 @@ export default function ImageTextBlock(props) {
   return (
     <div className="image-text-block">
       <div className="container pb-[80px] lg:pb-[160px] xl:pb-[180px]">
-        <div className="px-[15px] sm:px-0">
+        <div className=" sm:px-0">
           <div className={`flex items-start lg:items-center flex-col lg:flex-row gap-[30px] sm:gap-[50px] lg:gap-[72px] xl:gap-[96px] ${props.class}`}>
             <div className='w-full lg:w-[50%] max-w-full'>
               <Image

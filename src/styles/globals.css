@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap'); */
+
+@media (min-width: 1024px) {
+  .all-you-need-section .scaleup   {
+    transform: scale(0.9);
+  }
+}
 @media (min-width: 1280px) {
   .all-you-need-section .scaleup   {
     transform: scale(1.17);
@@ -10,12 +16,14 @@
   .all-you-need-section .scaleup  img {
     transform: scale(0.92);
   }
-  .all-you-need-section .scaleup  span::before {
-
+}
+@media (min-width: 1440px) {
+  .all-you-need-section .scaleup   {
+    transform: scale(1.1);
   }
-  /* .scaleup {
-    transform: scale(1.18);
-  } */
+  .all-you-need-section .scaleup  img {
+    transform: scale(1);
+  }
 }
 img {
   z-index: 100;
@@ -91,7 +99,7 @@ img {
   }
 
   .t-heading-6-sm {
-    @apply font-lato font-normal text-[16px] lg:text-[18px] leading-[1.5] pb-[0.1em];
+    @apply font-lato font-normal text-[16px] lg:text-[18px] leading-[28px] pb-[0.1em];
   }
 
   .t-body-2xl {

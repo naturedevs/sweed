@@ -9,7 +9,7 @@ export default function AllYouNeed() {
         </div>
       </div>
       <div className="container pb-20 lg:px-0">
-        <div className="hidden lg:flex blocks-row text-center lg:justify-between lg:pt-20 xl:justify-center scaleup lg:max-w-[1020px] m-auto lg:gap-[10px] flex-wrap">
+        <div className="hidden lg:flex blocks-row text-center lg:justify-between lg:pt-10 xl:justify-center scaleup lg:max-w-[1020px] m-auto lg:gap-[10px] flex-wrap">
           <div className='z-[50] hover:z-0 block block-1  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-3, block-7, block-8'>
             <div className='block-inner '>
               <div className='absolute top-[40px] left-[90px] w-[329px] rotate-[0deg]  h-[1px] z-20aa'>
@@ -417,8 +417,8 @@ export default function AllYouNeed() {
             </div>
           </div>
         </div>
-        <div className="flex lg:hidden blocks-row text-center justify-evenly max-w-[1140px] m-auto xl:gap-[10px] flex-wrap">
-          <div className='block block-1 w-[33.33%] md:w-[25%] xl:w-[180px] mb-[30px] xl:mb-[50px] relative' data-connect='block-3, block-7, block-8'>
+        <div className="flex mx-[-20px] sm:mx-[-30px] md:mx-[-40px] lg:hidden blocks-row text-center justify-evenly max-w-[1140px] m-auto xl:gap-[10px] flex-wrap">
+          <div className='block block-1 w-[33.33%] md:w-[25%]  xl:w-[180px] mb-[30px] xl:mb-[50px] relative' data-connect='block-3, block-7, block-8'>
             <div className='block-inner'>
               <Image
                 src="/images/homepage/icon_point_of_sale.png"

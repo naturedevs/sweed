@@ -18,7 +18,7 @@ export default function AllYouNeed() {
               <div className='absolute top-[132px] hidden xl:block left-[79px] w-[422px] rotate-[21deg] bg-gradient-to-r from-[#5BBA6F] to-[#FFBF00] h-[1px] z-20aa'></div>
               <div className='absolute top-[133px] xl:hidden right-[-2px] w-[165px] rotate-[90deg] bg-gradient-to-r from-[#5BBA6F] to-[#06AED5] h-[1px] z-20aa'></div>
               <div className='absolute top-[133px] hidden xl:block left-[29px] w-[175px] rotate-[62deg] bg-gradient-to-r from-[#5BBA6F] to-[#06AED5] h-[1px] z-20aa'></div>
-              <Image
+              <img
                 src="/images/homepage/icon_point_of_sale.png"
                 alt=""
                 width={0}
@@ -26,7 +26,7 @@ export default function AllYouNeed() {
                 sizes="100vw"
                 className="w-[60px] md:w-[74px] h-[60px] md:h-[74px] m-auto relative z-30"
               />
-              <span className='t-heading-6-sm text-[#181819]'>Point of Sale</span>
+              <span className='t-heading-6-sm text-[#181819] absolute' >Point of Sale</span>
             </div>
           </div>
           <div className='z-[50] hover:z-0 block block-2  w-[33.33%] lg:w-[160px] mb-[30px] lg:mb-[50px] relative' data-connect='block-1, block-7, block-8, block-9, block-10'>

@@ -3,10 +3,10 @@ import Link from "next/link"
 
 export default function Banner(props) {
   return (
-    <div className={`bg-color-tile justify-center relative w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`}>
+    <div className={`bg-color-tile bg-[url('/images/homepage/home_banner_bg.jpg')] bg-cover justify-center relative w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`}>
       
       <div className=" container pt-[120px] xl:pt-[50px] pb-[40px] lg:pb-[80px] flex items-center z-40">
-      <video
+      {/* <video
         preload="auto"
         playsInline
         autoPlay
@@ -15,7 +15,7 @@ export default function Banner(props) {
         className='absolute top-0 left-0 right-0 w-full h-full object-cover z-10'
       >
         <source src="/videos/home_banner.mp4" type="video/mp4" />
-      </video>
+      </video> */}
         <div className='flex items-end flex-col lg:gap-0 gap-5 lg:flex-row w-full z-20'>
           <div className='w-full lg:w-[55%]'>
             <h2 className={`t-heading-1-md md:!text-[60px] lg:!text-[55px] xl:!text-[70px] text-white mb-[30px] max-w-[${props.titleWidth}]`}>{props.title}</h2>

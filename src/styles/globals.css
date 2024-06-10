@@ -278,7 +278,7 @@ spline-viewer {
   /* position: relative; */
 }
 .all-you-need-section .block-inner > div{
-  transition: width 0.5s ease;
+  transition: width 0.2s ease;
   opacity: 1;
   left:80px !important;
   top:37px !important;
@@ -287,7 +287,7 @@ spline-viewer {
   /* position: relative; */
 }
 .all-you-need-section .block-inner:hover > div{
-  transition: width 1.5s ease;
+  transition: width 0.5s ease;
   opacity: 1;
   left:80px !important;
   top:37px !important;
@@ -296,7 +296,7 @@ spline-viewer {
   /* position: relative; */
 }
 .all-you-need-section .block-inner > div > div{
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   opacity: 1;
   height: 100%;
   width:0;
@@ -306,7 +306,7 @@ spline-viewer {
 }
 
 .all-you-need-section .block-inner:hover > div > div {
-  transition: all 1.5s ease;
+  transition: all 0.5s ease;
   opacity: 1;
   height: 100%;
   left:0 !important;
@@ -318,7 +318,7 @@ spline-viewer {
 
 
 .all-you-need-section .block-inner1 > div{
-  transition: width 1.5s ease;
+  transition: width 0.2s ease;
   opacity: 1;
   left:80px !important;
   bottom:91px !important;
@@ -327,7 +327,7 @@ spline-viewer {
   /* position: relative; */
 }
 .all-you-need-section .block-inner1:hover > div{
-  transition: all 1.5s ease;
+  transition: all 0.5s ease;
   opacity: 1;
   left:80px !important;
   bottom:91px !important;
@@ -336,7 +336,7 @@ spline-viewer {
   /* position: relative; */
 }
 .all-you-need-section .block-inner1 > div > div{
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   opacity: 1;
   height: 100%;
   width:0;
@@ -348,10 +348,9 @@ spline-viewer {
 }
 
 .all-you-need-section .block-inner1:hover > div > div {
-  transition: width 0.5s ease;
+  /* transition: width 0.5s ease; */
   transform-origin: left top;
-  transform: rotate(180deg);
-  transition: width 1.5s ease;
+  transition: width 0.5s ease;
   transform: rotate(180deg);
   opacity: 1;
   height: 100%;
@@ -362,7 +361,7 @@ spline-viewer {
   visibility: visible;
 }
 .all-you-need-section .blocks-row .block {
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
   /* filter: grayscale(100%); */
 }

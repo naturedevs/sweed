@@ -112,7 +112,7 @@ export default function AllYouNeed() {
             <div className='block-inner'>
               <div className='absolute top-[40px] right-[101px] w-[131px] rotate-[180deg] bg-gradient-to-r from-[#B84FD7] to-[#F67227] h-[1px] z-20aa'></div>
               <div className='absolute top-[132px] right-[-6px] w-[169px] rotate-[90deg] xl:hidden bg-gradient-to-r from-[#B84FD7] to-[#D74FA9] h-[1px] z-20aa'></div>
-              <div className='absolute top-[132px] right-[42px] w-[169px] rotate-[115deg] lg:hidden xl:block bg-gradient-to-r from-[#B84FD7] to-[#D74FA9] h-[1px] z-20aa'></div>
+              {/* <div className='absolute top-[132px] right-[42px] w-[169px] rotate-[116deg] lg:hidden xl:block bg-gradient-to-r from-[#B84FD7] to-[#D74FA9] h-[1px] z-20aa'></div> */}
               <Image
                 src="/images/homepage/icon_integrations.png"
                 alt=""

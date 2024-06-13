@@ -7,7 +7,7 @@ import homeBannerImage from "/public/images/homepage/home_banner_image.png"
 
 export default function Home() {
   return (
-    <main className='overflow-x-hidden'>
+    <main className=''>
 
       <BannerSection
         title={<>One Platform <br />for All Cannabis <br />Retail Operations</>}

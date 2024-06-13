@@ -45,7 +45,7 @@ function onReadyCustomFunc() {
   /* "All You Need" section */
   $(".all-you-need-section .blocks-row").on({
     mouseenter: function () {
-      $(this).parent().parent().find('.block').removeClass('active');
+      $(this).parent().parent().find('.block').addClass('inactive');
       $(this).parent().addClass('active');
       let dataConnect = $(this).parent().attr('data-connect');
       if (dataConnect) {
@@ -60,13 +60,14 @@ function onReadyCustomFunc() {
     },
     mouseleave: function () {
       $(this).parent().parent().find('.block').removeClass('active');
+      $(this).parent().parent().find('.block').removeClass('inactive');
     }
   }, '.block-inner');
 
   /* "All You Need" section */
   $(".all-you-need-section .blocks-row").on({
     mouseenter: function () {
-      $(this).parent().parent().find('.block').removeClass('active');
+      $(this).parent().parent().find('.block').addClass('inactive');
       $(this).parent().addClass('active');
       let dataConnect = $(this).parent().attr('data-connect');
       if (dataConnect) {
@@ -81,6 +82,7 @@ function onReadyCustomFunc() {
     },
     mouseleave: function () {
       $(this).parent().parent().find('.block').removeClass('active');
+      $(this).parent().parent().find('.block').removeClass('inactive');
     }
   }, '.block-inner1');
   /* "Image Text Block" section */

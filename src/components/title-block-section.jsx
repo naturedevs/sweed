@@ -74,8 +74,8 @@ export default function Banner() {
               <p className='t-body-md'>To accomplish more with less tech</p>
             </div>
           </div>
-          <div className='content grid md:grid-cols-2 md:gap-[72px] lg:gap-[60px]'>
-            <div className='flex md:gap-[20px] lg:gap-[50px] xl:gap-[50px] flex-col'>
+          <div className='content grid md:grid-cols-2 md:gap-[72px] lg:gap-[60px] xl:gap-[70px]'>
+            <div className='flex md:gap-[20px] lg:gap-[80px] xl:gap-[70px] flex-col'>
               {blockSmallOne.map((block, i) => {
                 const Title = block.title;
                 const Text = block.text;
@@ -92,7 +92,7 @@ export default function Banner() {
                 )
               })}
             </div>
-            <div className='flex md:gap-[20px] lg:gap-[50px] flex-col md:mt-[170px] lg:mt-[200px] xl:mt-[223px]'>
+            <div className='flex md:gap-[20px] lg:gap-[80px] xl:gap-[70px] flex-col md:mt-[170px] lg:mt-[215px] xl:mt-[230px]'>
               {blockSmallTwo.map((block, i) => {
                 const Title = block.title;
                 const Text = block.text;

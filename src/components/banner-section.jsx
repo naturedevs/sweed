@@ -5,7 +5,7 @@ import { headers } from '../../next.config'
 // import Spline from '@splinetool/react-spline';
 import { useRef, useEffect } from'react';
 import dynamic from 'next/dynamic';
-const Spline = dynamic(() => import('@splinetool/react-spline'), { ssr: false });
+// const Spline = dynamic(() => import('@splinetool/react-spline'), { ssr: false });
 export default function Banner(props) {
   // const splineRef = useRef(null);
 
@@ -23,9 +23,9 @@ export default function Banner(props) {
   return (
     <>
     <div className={` bg-cover justify-center relative w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`}>
-      <Spline scene="/videos/1.spline" 
+      {/* <Spline scene="/videos/1.spline" 
         style={{height: "calc(100% + 200px)"}}
-        className={`justify-center absolute w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`} />
+        className={`justify-center absolute w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`} /> */}
 
         <div className="container pt-[120px] xl:pt-[50px] pb-[40px] lg:pb-[80px] flex items-center z-40">
 

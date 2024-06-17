@@ -124,10 +124,6 @@ export default function App({ Component, pageProps }) {
         strategy="lazyOnload"
         onReady={onReadyCustomFunc}
       />
-      <Script
-        src="https://unpkg.com/@splinetool/viewer/build/spline-viewer.js"
-        type="module"
-      />
 
       <main className={`${lato.variable} ${poppins.variable} font-lato antialiased bg-diamonds flex flex-col min-h-screen`}>
         <Header />

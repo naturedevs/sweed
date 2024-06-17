@@ -1,4 +1,3 @@
-'use client'
 import '@/styles/globals.css'
 import Head from 'next/head'
 import Header from '@/components/header'
@@ -124,6 +123,10 @@ export default function App({ Component, pageProps }) {
         src="/js/custom.js"
         strategy="lazyOnload"
         onReady={onReadyCustomFunc}
+      />
+      <Script
+        src="https://unpkg.com/@splinetool/viewer/build/spline-viewer.js"
+        type="module"
       />
 
       <main className={`${lato.variable} ${poppins.variable} font-lato antialiased bg-diamonds flex flex-col min-h-screen`}>

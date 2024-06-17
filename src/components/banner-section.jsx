@@ -25,9 +25,10 @@ export default function Banner(props) {
   return (
     <>
     <div className={` bg-cover justify-center relative w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`}>
-      {/* <Spline scene="/videos/1.spline" 
+      <spline-viewer url="/videos/1.spline" 
+      // <spline-viewer url="https://prod.spline.design/OM1pqrY7nYNVq365/scene.splinecode" 
         style={{height: "calc(100% + 200px)"}}
-        className={`justify-center absolute w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`} /> */}
+        class={`justify-center absolute w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`} />
 
         <div className="container pt-[120px] xl:pt-[50px] pb-[40px] lg:pb-[80px] flex items-center z-40">
 

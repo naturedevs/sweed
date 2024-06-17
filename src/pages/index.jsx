@@ -1,3 +1,4 @@
+'use client'
 import BannerSection from '@/components/banner-section';
 import AllYouNeedSection from '@/components/all-you-need-section';
 import ImageTextSection from '@/components/image-text-section';

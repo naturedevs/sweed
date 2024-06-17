@@ -6,26 +6,25 @@ import Spline from '@splinetool/react-spline';
 import { useRef, useEffect } from'react';
 
 export default function Banner(props) {
-  const splineRef = useRef(null);
+  // const splineRef = useRef(null);
 
-  const onLoad = (spline) => {
-    splineRef.current = spline;
-    window.temp = spline;
-  };
+  // const onLoad = (spline) => {
+  //   splineRef.current = spline;
+  //   window.temp = spline;
+  // };
 
-  const stopAnimation = () => {
-    if (splineRef.current) {
-      splineRef.current.stop(); // Adjust according to the actual API method
-    }
-  };
+  // const stopAnimation = () => {
+  //   if (splineRef.current) {
+  //     splineRef.current.stop(); // Adjust according to the actual API method
+  //   }
+  // };
 
   return (
     <>
     <div className={` bg-cover justify-center relative w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`}>
-      <Spline scene="/videos/1.spline" onLoad={onLoad}
-      // <Spline url="https://prod.spline.design/OM1pqrY7nYNVq365/scene.splinecode" events-target="global"
+      {/* <Spline scene="/videos/1.spline" onLoad={onLoad}
         style={{height: "calc(100% + 200px)"}}
-        className={`justify-center absolute w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`} />
+        className={`justify-center absolute w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`} /> */}
 
         <div className="container pt-[120px] xl:pt-[50px] pb-[40px] lg:pb-[80px] flex items-center z-40">
 

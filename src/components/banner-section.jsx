@@ -2,10 +2,10 @@
 import Image from 'next/image'
 import Link from "next/link"
 // import { headers } from '../../next.config'
-import Spline from '@splinetool/react-spline';
+// import Spline from '@splinetool/react-spline';
 // import Spline from '@splinetool/react-spline/next';
 // import { useRef, useEffect } from'react';
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 // const Spline = dynamic(() => import('@splinetool/react-spline'), { ssr: false });
 // import Spline from '@splinetool/react-spline';
 export default function Banner(props) {

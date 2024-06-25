@@ -1,34 +1,15 @@
 'use client'
 import Image from 'next/image'
 import Link from "next/link"
-// import { headers } from '../../next.config'
-// import Spline from '@splinetool/react-spline';
-// import Spline from '@splinetool/react-spline/next';
-// import { useRef, useEffect } from'react';
-// import dynamic from 'next/dynamic';
-// const Spline = dynamic(() => import('@splinetool/react-spline'), { ssr: false });
-// import Spline from '@splinetool/react-spline';
+
 export default function Banner(props) {
-  // const splineRef = useRef(null);
-
-  // const onLoad = (spline) => {
-  //   splineRef.current = spline;
-  //   window.temp = spline;
-  // };
-
-  // const stopAnimation = () => {
-  //   if (splineRef.current) {
-  //     splineRef.current.stop(); // Adjust according to the actual API method
-  //   }
-  // };
-
   return (
     <>
-    <div className={` bg-cover justify-center relative w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`}>
+    <div className={` bg-cover justify-center bg-[url('/images/homepage/home_banner_bg.jpg')] relative w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`}>
       <spline-viewer url="/videos/1.spline" 
       // <spline-viewer url="https://prod.spline.design/OM1pqrY7nYNVq365/scene.splinecode" 
         style={{height: "calc(100% + 200px)"}}
-        class={`justify-center absolute w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`} />
+        class={`justify-center  absolute w-full flex items-center xl:pt-[80px] ${props.class} overflow-hidden`} />
 
         <div className="container pt-[120px] xl:pt-[50px] pb-[40px] lg:pb-[80px] flex items-center z-40">
 
